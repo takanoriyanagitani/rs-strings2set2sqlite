@@ -3,7 +3,15 @@ name = "rs-strings2set2sqlite"
 version = "0.1.0"
 edition = "2024"
 
+description = "Insert strings from stdin into a SQLite set"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-strings2set2sqlite"
+homepage = "https://github.com/takanoriyanagitani/rs-strings2set2sqlite"
+documentation = "https://docs.rs/rs-strings2set2sqlite/latest"
+keywords = ["sqlite", "set", "string", "wasi"]
+
 exclude = [
+  "strings2set2sqlite.wasm",
 ]
 
 [lints.rust]
